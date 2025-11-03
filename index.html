@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube sem distrações</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="p-6 text-center bg-white shadow" id="header">
+        <h1 class="text-3xl font-semibold">Youtube sem distrações</h1>
+        <p class="text-gray-500">Conexão, silêncio e aprendizado — tudo em vídeo.</p>
+        <button id="modo-btn" class="mt-3 bg-gray-800 text-white px-3 py-1 rounded">🌙 Modo Noturno</button>
+    </header>
+
+    <div id="player-container" class="player-container hidden">
+        <div class="player-box">
+            <button id="fechar-player">✖</button>
+            <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <main id="conteudo" class="max-w-5xl mx-auto mt-6"></main>
+
+    <footer class="text-center text-sm text-gray-500 mt-10 mb-5">
+        <p>© Youtube sem distrações</p>
+    </footer>
+
+</body>
+</html>
